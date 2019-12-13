@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40687FFD-B728-70AF-E87F-707D73BCC59A" name="USER">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 12:19:43 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EMAIL" id="D17F4C85-FB91-A12B-4801-91CF00D683A4">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 12:21:03 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="297F5EB0-A578-B44D-603A-A61347A42968">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 12:21:03 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PASSWORD_HASH" id="6CCE6416-976C-C701-0381-A5A333469154">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 12:21:03 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PIRCTURE" id="62231D5A-38EC-2B1E-DEEC-991D0672A580">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 12:21:04 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CREATED_AT" id="F520A9E9-0F05-EE3B-6068-FF1252D0A25F">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 12:21:34 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LAST_LOGIN_AT" id="6DD80542-53BB-E6E2-7D2E-08A431362BD2">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 12:21:41 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5932D91B-2F31-6312-372A-AB08178CBB04" name="USER PK">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 12:21:51 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D17F4C85-FB91-A12B-4801-91CF00D683A4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

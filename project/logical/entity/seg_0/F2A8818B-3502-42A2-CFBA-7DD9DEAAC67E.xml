@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F2A8818B-3502-42A2-CFBA-7DD9DEAAC67E" name="SKILL">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 12:28:56 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NAME" id="C92D28BA-83AC-6DBF-210D-E974D3C475A1">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 12:29:01 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="93F8B1FF-F5E7-A2E1-AE07-F5832C7B3811" name="SKILL PK">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 12:29:46 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C92D28BA-83AC-6DBF-210D-E974D3C475A1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B27EAB99-FD89-F8DE-6BAE-7781D9A92FB4" name="GRADE">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>100CBA36-1990-FB02-5982-8304D72BB40C</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SCORE" id="E05D3848-35BF-D48E-CC1E-2C539E0313F7">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>115B21F0-41C4-40E2-2679-211E6A4BD616</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="39192EBC-7983-C6F6-474B-46BD7634E661">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>6B83409C-2F0D-67C1-C2DE-D675DE66A254</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEACHER_EMAIL" id="CD50117D-53FB-DDDD-6C2D-505115076C04">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>7810BD46-95E6-84DC-EEC2-B8AB8CED2451</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F39CF8E2-6480-4F51-786A-61458FB8D61A" referredColumn="2286B1D1-0E89-6180-7C77-720A659C4571"/>
+</associations>
+</Column>
+<Column name="STUDENT_EMAIL" id="EC1C97B8-66A6-AFBD-8243-F4DC2191287A">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>2F20E908-FA75-6B23-4069-E927442F6C97</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C24BB633-38C7-8683-18E0-7E5DD1428ECE" referredColumn="CF018853-B0E3-1EC2-69C1-5C87D79FEBAF"/>
+</associations>
+</Column>
+<Column name="ACTIVITY_ACTIVITY_ID" id="13F38F2F-6DA0-CB8F-EB6E-EB40479AFD62">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>3EBC9ECE-5CE5-2D20-C2FD-82C05ABDB5C7</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EF7183D-A6E2-00CE-EC68-E999BC7F0F19" referredColumn="0A6EE8C7-21C9-EFB3-7F10-F0A92709413D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF9CB5E9-DA24-FCC8-3990-809F70F44C6D" name="GRADE_PK">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>2CBDD59A-E1EA-1A46-360C-74861657F43D</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD50117D-53FB-DDDD-6C2D-505115076C04"/>
+<colUsage columnID="EC1C97B8-66A6-AFBD-8243-F4DC2191287A"/>
+<colUsage columnID="13F38F2F-6DA0-CB8F-EB6E-EB40479AFD62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53C34437-561A-492E-E985-485A2EDAD427" name="GRADE_ACTIVITY_FK">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>2BC0E818-9364-BA42-B8E7-7AD59392D587</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13F38F2F-6DA0-CB8F-EB6E-EB40479AFD62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F72D23DE-1B20-31E3-E41B-2B318E94A0E5" name="GRADE_STUDENT_FK">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>96591475-9C3B-181F-FDEE-4DC6DA3441DA</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC1C97B8-66A6-AFBD-8243-F4DC2191287A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA31D609-762D-B8BB-3F01-8D91A80E0E9F" name="GRADE_TEACHER_FK">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:09:06 UTC</createdTime>
+<generatorID>679781E8-99E2-0B87-6718-BA111E6F7D6F</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD50117D-53FB-DDDD-6C2D-505115076C04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

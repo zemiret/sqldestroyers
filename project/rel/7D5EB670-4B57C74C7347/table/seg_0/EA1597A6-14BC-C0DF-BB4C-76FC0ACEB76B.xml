@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA1597A6-14BC-C0DF-BB4C-76FC0ACEB76B" name="USER">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>40687FFD-B728-70AF-E87F-707D73BCC59A</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMAIL" id="97A97A0C-2F8E-4EAE-79E8-2F848B275260">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>D17F4C85-FB91-A12B-4801-91CF00D683A4</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="57A62868-D6E6-017E-B5B8-E925C26937D1">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>297F5EB0-A578-B44D-603A-A61347A42968</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD_HASH" id="6DFA1211-808A-B6F0-152E-550D8C7765FB">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>6CCE6416-976C-C701-0381-A5A333469154</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PIRCTURE" id="4D6C4B04-E29B-4998-B68F-1328D00A63F2">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>62231D5A-38EC-2B1E-DEEC-991D0672A580</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_AT" id="1FDAAF7B-A6E6-1E5C-5C50-1408A8AE71C1">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>F520A9E9-0F05-EE3B-6068-FF1252D0A25F</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_LOGIN_AT" id="9117C761-AE2D-FE37-94FC-10546A2B7542">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>6DD80542-53BB-E6E2-7D2E-08A431362BD2</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84B4B234-5AD9-A460-E154-BE257EB8D99D" name="USER_PK">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>5932D91B-2F31-6312-372A-AB08178CBB04</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97A97A0C-2F8E-4EAE-79E8-2F848B275260"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

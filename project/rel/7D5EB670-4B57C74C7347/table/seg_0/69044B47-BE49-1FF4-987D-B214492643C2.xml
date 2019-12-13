@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69044B47-BE49-1FF4-987D-B214492643C2" name="ACTIVITY">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>2A0F20C9-EB81-8330-B8AF-6BAD0F1F54FB</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="START_DATE" id="4189940A-A306-75E2-52CA-FEFA60F5DCB8">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>8261DD50-F2C4-B11F-FF24-3E482A492105</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVITY_ID" id="0A6EE8C7-21C9-EFB3-7F10-F0A92709413D">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>0251D969-D796-B77E-02BB-745CB24304BF</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="E0FD61A4-E3E6-40DB-AEAC-6593212E6198">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>7904F54D-33A7-DBFC-76FC-F8AF7A77B73C</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="EBA84EDB-DE09-0F5D-CDAE-806158AB7A04">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>1B87F361-6758-4AC7-2D3E-0AE961A9987D</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AVAILABLE_SPOTS" id="22C265DA-D0BC-D650-2465-8698AD3A110B">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>16F09658-871A-1AEF-30A9-8CB4D09E8041</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="ABDDB594-1C80-4146-ADC0-104E52748B55">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>CF4BDC8F-E0F9-8E79-1361-5DDD6ADAD645</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="16F8DA80-0718-633E-33DB-EDC880004D48">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>CB4BD5FD-CC1F-9675-83FA-4645EC017188</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WEBSITE" id="8260DAEA-1EFA-68D2-E135-55C48BBE8158">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>9DEF88D1-9032-8E8C-D1A4-CAFB2318C0A6</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_DATE" id="59969F2F-90E4-B28A-1700-D01567C5E41A">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>33047A72-E98E-96EF-0E3F-5CC5725EECB4</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_AT" id="3FAC9B2B-72FD-4CE8-3D41-3D51FDDEB045">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>72F7CD71-A425-CBB2-3C38-B4A9D2B39E60</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IS_VOLUNTEERING" id="F29F8289-C04C-7ACB-7A83-556D8D0F6FB1">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>341C4B9C-9229-B869-5F15-99EFFC553BE7</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORGANIZATION_EMAIL" id="22C7CA7E-DD26-7584-4484-DCBA3E730EB8">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>0E362BDD-9D32-042E-A589-6F4D1BF63251</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E446025-4202-7B97-4F38-884054DF4AB7" referredColumn="101E617B-869B-2D60-98E4-5D3E91A4238E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2FE18A19-6BB3-9AE7-906E-9FE5676F363C" name="ACTIVITY_PK">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>E84E7D91-B634-B413-50DC-B455D077237C</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A6EE8C7-21C9-EFB3-7F10-F0A92709413D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4ED80AFF-286C-BD46-88DD-869FDA213CAE" name="ACTIVITY_ORGANIZATION_FK">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>D55D22BF-A8C4-6BB7-D400-967A035B81C9</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22C7CA7E-DD26-7584-4484-DCBA3E730EB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

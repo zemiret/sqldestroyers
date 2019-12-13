@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9F116D5-CF6F-F1B7-E604-922781C3591F" name="TEACHER">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>1D68D585-0746-E6AE-7DCA-E1830C8323C8</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMAIL" id="2286B1D1-0E89-6180-7C77-720A659C4571">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>D17F4C85-FB91-A12B-4801-91CF00D683A4</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93D74C04-3425-E15B-47C3-8AD3D6317817" referredColumn="E7809C7F-77B4-A345-D1EE-D22893C0D788"/>
+</associations>
+</Column>
+<Column name="WEBSITE" id="20147989-AB40-FB2E-D366-3F322E6FABAB">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>46AF5D13-6F69-EFD0-311D-09422A7C2655</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA05B12A-FB29-7B60-C97B-9FC5211CB449" name="TEACHER_PK">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>5932D91B-2F31-6312-372A-AB08178CBB04</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2286B1D1-0E89-6180-7C77-720A659C4571"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29F49B62-D0F3-B52E-3FDD-FF3647B9A796" name="TEACHER_PERSON_FK">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>35AC738E-C039-C36A-5BC2-29CEECE41395</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2286B1D1-0E89-6180-7C77-720A659C4571"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

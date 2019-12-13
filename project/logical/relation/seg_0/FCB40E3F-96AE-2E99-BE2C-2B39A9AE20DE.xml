@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SKILL_TO_STUDENT" directorySegmentName="seg_0" id="FCB40E3F-96AE-2E99-BE2C-2B39A9AE20DE">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 12:30:05 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<sourcePk>93F8B1FF-F5E7-A2E1-AE07-F5832C7B3811</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>IS_ASSIGNED_TO</nameOnSource>
+<nameOnTarget>HAS_SKILL</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F2A8818B-3502-42A2-CFBA-7DD9DEAAC67E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>94F96C0A-197A-362B-07C4-6D1027462B4A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

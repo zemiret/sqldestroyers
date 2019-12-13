@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PROJECT_TO_REVIEW" directorySegmentName="seg_0" id="6CD9013E-81EF-58E4-E3E7-EAF01D2686CB">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 13:07:26 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<targetPk>E84E7D91-B634-B413-50DC-B455D077237C</targetPk>
+<identifying>true</identifying>
+<nameOnSource>REVIEWS</nameOnSource>
+<nameOnTarget>HAS_REVIEW</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>83DAA518-871A-311B-E97B-476C4D02E0DA</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2A0F20C9-EB81-8330-B8AF-6BAD0F1F54FB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="83DAA518-871A-311B-E97B-476C4D02E0DA" name="REVIEW">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 12:20:03 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TITLE" id="BCD93000-13A7-B2C9-065C-ECEBB1F4491D">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 12:44:01 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TEXT" id="50FDDF45-7A92-A49F-0705-4AA31F055ADA">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 12:44:01 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COORDINATION_MARK" id="9DE8EC62-2814-DD92-9E25-9F433496946A">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 12:44:02 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RESPONSIVENESS_MARK" id="2CB52D45-9D18-6AB8-1D35-78030265DE8C">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 12:44:02 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USEFULNESS_MARK" id="7362B04A-831C-06AB-5FDB-8B5D7534E5F2">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 12:44:02 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CREATED_AT" id="734DE53E-86E7-BEB8-5A64-DFD76D23DD99">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 12:44:02 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="49CE6A9B-A17B-23E7-D772-5EF17CA0DFB4">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 13:08:41 UTC</createdTime>
+<generatorID>4BB02CF0-9EA0-6F3C-421A-86A2784B7BA4</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<referedAttribute>D17F4C85-FB91-A12B-4801-91CF00D683A4</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ACTIVITY_ID" id="0937620B-72B5-E18B-5E44-0CB8582EFF75">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 19:13:07 UTC</createdTime>
+<generatorID>6CD9013E-81EF-58E4-E3E7-EAF01D2686CB</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<referedAttribute>0251D969-D796-B77E-02BB-745CB24304BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7D2D63F-164A-2C08-E8BC-00456AB9EFA7" name="REVIEW PK">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-11-08 19:13:34 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49CE6A9B-A17B-23E7-D772-5EF17CA0DFB4</attributeRef>
+<attributeRef>0937620B-72B5-E18B-5E44-0CB8582EFF75</attributeRef>
+<attributeRef>734DE53E-86E7-BEB8-5A64-DFD76D23DD99</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

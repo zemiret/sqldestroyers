@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="100CBA36-1990-FB02-5982-8304D72BB40C" name="GRADE">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 12:17:50 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SCORE" id="115B21F0-41C4-40E2-2679-211E6A4BD616">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 12:17:56 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPTION" id="6B83409C-2F0D-67C1-C2DE-D675DE66A254">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 12:18:19 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="7810BD46-95E6-84DC-EEC2-B8AB8CED2451">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 12:21:00 UTC</createdTime>
+<generatorID>679781E8-99E2-0B87-6718-BA111E6F7D6F</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<referedAttribute>D17F4C85-FB91-A12B-4801-91CF00D683A4</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL1" id="2F20E908-FA75-6B23-4069-E927442F6C97">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 12:21:18 UTC</createdTime>
+<generatorID>96591475-9C3B-181F-FDEE-4DC6DA3441DA</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<referedAttribute>D17F4C85-FB91-A12B-4801-91CF00D683A4</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ACTIVITY_ID" id="3EBC9ECE-5CE5-2D20-C2FD-82C05ABDB5C7">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 12:34:52 UTC</createdTime>
+<generatorID>2BC0E818-9364-BA42-B8E7-7AD59392D587</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<referedAttribute>0251D969-D796-B77E-02BB-745CB24304BF</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2CBDD59A-E1EA-1A46-360C-74861657F43D" name="GRADE PK">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 12:21:00 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<engineerTo>
+<item key="7D5EB670-9EF6-4F60-4CD9-4B57C74C7347" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7810BD46-95E6-84DC-EEC2-B8AB8CED2451</attributeRef>
+<attributeRef>2F20E908-FA75-6B23-4069-E927442F6C97</attributeRef>
+<attributeRef>3EBC9ECE-5CE5-2D20-C2FD-82C05ABDB5C7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D66EB07E-A521-1A9C-E6EE-7C73DBE5357C" name="REVIEW">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>83DAA518-871A-311B-E97B-476C4D02E0DA</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TITLE" id="BC5A16D5-8448-6B65-0DDD-78FBA14785A6">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>BCD93000-13A7-B2C9-065C-ECEBB1F4491D</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEXT" id="E3FD0C36-C069-F8EB-0BB5-79D75037F86C">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>50FDDF45-7A92-A49F-0705-4AA31F055ADA</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COORDINATION_MARK" id="B0C1D934-49F2-20B6-F685-7CBC8A03A097">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>9DE8EC62-2814-DD92-9E25-9F433496946A</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESPONSIVENESS_MARK" id="01DEBC25-DB3B-DB2B-4565-162CF376D2A4">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>2CB52D45-9D18-6AB8-1D35-78030265DE8C</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USEFULNESS_MARK" id="C79262DD-A145-16F5-A373-C4E19B54D2AC">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>7362B04A-831C-06AB-5FDB-8B5D7534E5F2</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATED_AT" id="F1FA3615-1B1D-3720-6677-CC5C8245DA9F">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>734DE53E-86E7-BEB8-5A64-DFD76D23DD99</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STUDENT_EMAIL" id="DAF6FE10-A341-FAB0-5C2C-A3CE428C1DA3">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>49CE6A9B-A17B-23E7-D772-5EF17CA0DFB4</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A24CC25-4142-5BE3-5888-71FA2238909D" referredColumn="CF018853-B0E3-1EC2-69C1-5C87D79FEBAF"/>
+</associations>
+</Column>
+<Column name="ACTIVITY_ACTIVITY_ID" id="C4416A81-A1AE-8563-C0E2-1B37F873FE07">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>0937620B-72B5-E18B-5E44-0CB8582EFF75</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9372F183-65D3-52B3-C6E1-365DC6967326" referredColumn="0A6EE8C7-21C9-EFB3-7F10-F0A92709413D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="708FBEE9-F816-AD17-CCF2-7632B63B72CA" name="REVIEW_PK">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>D7D2D63F-164A-2C08-E8BC-00456AB9EFA7</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAF6FE10-A341-FAB0-5C2C-A3CE428C1DA3"/>
+<colUsage columnID="C4416A81-A1AE-8563-C0E2-1B37F873FE07"/>
+<colUsage columnID="F1FA3615-1B1D-3720-6677-CC5C8245DA9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42DC5BC4-4406-4D70-69B9-B9CA6CF71FC5" name="REVIEW_ACTIVITY_FK">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>6CD9013E-81EF-58E4-E3E7-EAF01D2686CB</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4416A81-A1AE-8563-C0E2-1B37F873FE07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C34CFE5F-3707-B5FA-FA6B-E6ED61AB330D" name="REVIEW_STUDENT_FK">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>4BB02CF0-9EA0-6F3C-421A-86A2784B7BA4</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAF6FE10-A341-FAB0-5C2C-A3CE428C1DA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

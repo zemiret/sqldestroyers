@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8C83ED7-F6B5-AA16-B583-0909C571A846" name="SKILL_TO_STUDENT">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SKILL_NAME" id="CC114962-BCDA-927B-7A12-7953ABA3D42F">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E38CBFB-BF41-D95A-4490-892D1D7979B9" referredColumn="44E0E269-1B43-751C-7BF3-396E7A6E6F88"/>
+</associations>
+</Column>
+<Column name="STUDENT_EMAIL" id="4F482021-8E20-6ACA-89F4-375A4DE80645">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C0628F4-46EE-65E8-4A02-1FE0B48BE8CF" referredColumn="CF018853-B0E3-1EC2-69C1-5C87D79FEBAF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A7A26FB-16CE-F089-1E12-512336F6C1FE" name="SKILL_TO_STUDENT_PK">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC114962-BCDA-927B-7A12-7953ABA3D42F"/>
+<colUsage columnID="4F482021-8E20-6ACA-89F4-375A4DE80645"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07D3082F-0060-BE0D-6018-D6240D1D1AF4" name="SKILL_TO_STUDENT_SKILL_FK">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>FCB40E3F-96AE-2E99-BE2C-2B39A9AE20DE</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC114962-BCDA-927B-7A12-7953ABA3D42F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59AB74AE-8DF3-3E4A-1B9A-8885C89F44E1" name="SKILL_TO_STUDENT_STUDENT_FK">
+<createdBy>amleczko</createdBy>
+<createdTime>2019-12-13 13:08:01 UTC</createdTime>
+<generatorID>FCB40E3F-96AE-2E99-BE2C-2B39A9AE20DE</generatorID>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F482021-8E20-6ACA-89F4-375A4DE80645"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
